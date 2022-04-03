@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABkAeBvtGKE+DvbaFAm8CzAAAAAACAAAAAAAQZgAAAAEAACAAAAA5f6EBgi38JoMo2nayxHx+yjwE/7poEVJ82p0DuU2acQAAAAAOgAAAAAIAACAAAAAWIW4hMtsVRx1fAmAlZMmPSERRM/Pw2mUtZ9vxFbM9yoAAAAAl1t5Uc89s9E9w/HJm6ZLY/WPNH14eMDF1WuKAguiLyMzGjRvDl8zkkScJbt3AOVn4k6L94fofLK2cvHhoL8IWIhUJlxDbTpBEtdeIw0dsmaAkBh26CVRPs98tMvKZOnJ6sNs2IUFcJS5DotlitskYTotvYiek4k8vS9xm5mdW3kAAAAAFDIWwvii0RJd2o7LMbU5McP6u0C54XdBe9f5OgcEzP4KEBMi2afBJsJYc7YFl2KKz8w5B7ggQYoT2JoXFKOLW</EncryptedPassword>
+    <History>True|2022-04-03T16:23:38.1209135Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="MovieAPI.Context.MovieContext">
+      <Value>Server=tcp:pedrotesteapi.database.windows.net,1433%3bInitial Catalog=pedroAPI%3bPersist Security Info=False%3bUser ID=pedrofarias%3bPassword=Teste_API%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
